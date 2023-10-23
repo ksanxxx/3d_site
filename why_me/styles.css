@@ -1,8 +1,9 @@
- *,
- *:after,
- *:before {
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Comfortaa';
     box-sizing: border-box;
- } 
+}
 
   body {
    }
@@ -18,6 +19,8 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 100%;
+    margin-top: 30px;
+
 }
 .textcols-item {
 	display: flex;
@@ -29,15 +32,13 @@
 }
 
 .textcols-item b{
-	font-family: 'Comfortaa';
-	font-size: 18px;
     letter-spacing: 3px;
 }
 .textcols-item p{
 	font-family: 'Comfortaa';
 	font-size: 18px;
 	line-height: 20px;
-	margin-bottom: -10px;
+	margin-bottom: 10px;
 }
 
 .textcols-item + .textcols-item {
@@ -52,6 +53,7 @@
     padding:30 px;
     border-radius:15px;
     margin-bottom:50px;
+     align-items: center;
    }
 
    .main img{
@@ -69,4 +71,44 @@
      overflow: hidden; /*рассматривается положение элемента(когда его
     размер превышает допустимую длину/ширину. ) hiddenПереполняющее содержимое не отображает.*/
      }
+}
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: white;
+}
+.about img{
+    height:auto;
+    width:420px;
+    border-radius: 100%;
+}
+.about-text{
+    width: 550px;
+    font-family: 'Comfortaa';
+}
+.main-about{
+    width: 1130px;
+    max-width: 95%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.about-text h1{
+    font-size:58px;
+    text-align:left;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    font-size:25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.about-text p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size:18px;
+    margin-bottom: 20px;
 }
