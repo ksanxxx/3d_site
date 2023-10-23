@@ -7,8 +7,8 @@
   body {
    }
    h1{
-    font-family: 'Segoe UI';
-	font-weight: normal;
+    font-family: 'Comfortaa';
+	font-size: 50px;
     letter-spacing: 7px;
     text-align: center;
    }
@@ -29,12 +29,15 @@
 }
 
 .textcols-item b{
-	font-family: 'Segoe UI';
+	font-family: 'Comfortaa';
+	font-size: 18px;
     letter-spacing: 3px;
 }
 .textcols-item p{
-	font-family: 'Segoe UI';
-	margin-bottom: -15px;
+	font-family: 'Comfortaa';
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: -10px;
 }
 
 .textcols-item + .textcols-item {
@@ -56,6 +59,7 @@
    display: block;
     margin-left: auto;
     margin-right: auto;
+	margin-bottom:20px;
 }
 @keyframes box {
     #rr{
