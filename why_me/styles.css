@@ -5,46 +5,46 @@
     box-sizing: border-box;
 }
 
-  body {
-   }
-   h1{
+body {
+}
+h1{
     font-family: 'Comfortaa';
-	font-size: 50px;
+    font-size: 50px;
     letter-spacing: 7px;
     text-align: center;
-   }
+}
 
 .textcols {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 
 }
 .textcols-item {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 100%;
-	flex: 1;
-	height: 30%;
-	text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 30%;
+    text-align: center;
 }
 
 .textcols-item b{
     letter-spacing: 3px;
 }
 .textcols-item p{
-	font-family: 'Comfortaa';
-	font-size: 18px;
-	line-height: 20px;
-	margin-bottom: 10px;
+    font-family: 'Comfortaa';
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
 }
 
 .textcols-item + .textcols-item {
-	margin-left: 5%;
+    margin-left: 5%;
 }
 
- .main {
+.main {
     margin-top: -80px;
     width: 100%;
     margin-left: auto;
@@ -53,27 +53,28 @@
     padding:10%;
     border-radius:15px;
     margin-bottom:50px;
-     align-items: center;
-   }
+    align-items: center;
+}
 
-   .main img{
-   width:25%;
-   display: block;
+.main img{
+    width:25%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-	margin-bottom:20px;
+    margin-bottom:20px;
 }
 @keyframes box {
-    #rr{
+#rr{
     position: relative; /* position- устанавливает положение элементов,
     относительно окна браузера. Relative – новое положение
     устанавливается относительно исходного положения*/
-     overflow: hidden; /*рассматривается положение элемента(когда его
+    overflow: hidden; /*рассматривается положение элемента(когда его
     размер превышает допустимую длину/ширину. ) hiddenПереполняющее содержимое не отображает.*/
-     }
+}
 }
 
 .about{
+    margin: 80px 0;
     width: 100%;
     padding: 78px 0px;
     background-color: white;
@@ -111,4 +112,51 @@
     line-height: 28px;
     font-size:18px;
     margin-bottom: 20px;
+}
+
+
+.works {
+    margin-top: -120px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10%;
+    border-radius:15px;
+    margin-bottom:50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.port {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+}
+.port-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 50%;
+    text-align: center;
+}
+
+.works img{
+    width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px;
+}
+.works{
+    zoom:150%
+}
+.works h1{
+
 }

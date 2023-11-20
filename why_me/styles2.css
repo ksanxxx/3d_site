@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Comfortaa';
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* создает 2 колонки равной ширины */
+    grid-template-rows: repeat(2, 1fr); /* создает 2 строки равной высоты */
+    grid-gap: 10px/* задает промежуток между элементами */
+}
+.grid-item {
+    padding: 20px;
+}
+
+
